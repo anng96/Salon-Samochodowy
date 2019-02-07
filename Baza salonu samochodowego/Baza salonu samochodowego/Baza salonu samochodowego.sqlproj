@@ -75,5 +75,6 @@
     <Build Include="dbo\Tables\Uslugi.sql" />
     <Build Include="dbo\Tables\StatusZamowienia.sql" />
     <Build Include="dbo\Tables\PracownikStanowisko.sql" />
+    <Build Include="dbo\Tables\ZamowieniaUslug.sql" />
   </ItemGroup>
 </Project>
