@@ -85,5 +85,8 @@
     <Build Include="rapOp\Views\v_ZamowieniaDlaMarek.sql" />
     <Build Include="rapOp\Views\v_PracownicyZamowienia.sql" />
     <Build Include="rapOp\Views\v_ModeleNiezamowione.sql" />
+    <Build Include="rapOp\Views\v_SerwisIleZakonczonych.sql" />
+    <Build Include="rapOp\Views\v_NajkrotszaUsluga.sql" />
+    <Build Include="rapOp\Views\v_HrNajwyzszaWyplataPracownika.sql" />
   </ItemGroup>
 </Project>

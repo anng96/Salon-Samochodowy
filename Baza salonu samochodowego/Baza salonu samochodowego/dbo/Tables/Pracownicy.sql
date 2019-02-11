@@ -8,7 +8,11 @@
     [Mail]             VARCHAR (100) NULL,
     [Telefon]          CHAR (9)      NULL,
     [DataZatrudnienia] DATE          NULL,
+    [ZespolId]         INT           NULL,
     PRIMARY KEY CLUSTERED ([PracownikId] ASC),
+    CONSTRAINT [FK_Pracownik_Zespol] FOREIGN KEY ([ZespolId]) REFERENCES [dbo].[Zespoly] ([ZespolId]) ON DELETE SET NULL ON UPDATE CASCADE,
     UNIQUE NONCLUSTERED ([PESEL] ASC)
 );
+
+
 
