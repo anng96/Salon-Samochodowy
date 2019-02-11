@@ -89,5 +89,6 @@
     <Build Include="rapOp\Views\v_NajkrotszaUsluga.sql" />
     <Build Include="rapOp\Views\v_HrNajwyzszaWyplataPracownika.sql" />
     <Build Include="rapOp\Views\v_HrNajwyszaPremiaZ.sql" />
+    <Build Include="rapOp\Views\v_SIleZakonczonych.sql" />
   </ItemGroup>
 </Project>
