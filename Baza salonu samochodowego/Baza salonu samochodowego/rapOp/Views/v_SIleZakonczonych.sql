@@ -1,7 +1,6 @@
-﻿CREATE VIEW [rapOp].[v_SIleZakonczonych] AS
-SELECT COUNT (StatusId) AS IleZamknietych 
-FROM StatusZamowienia AS s WITH (NOLOCK)
-INNER JOIN HistoriaZamowienia hs ON s.StatusId=hs.Status 
-WHERE JakiStatus = 'Zamknięte'
+﻿CREATE VIEW [rapOp].[v_SIleZakonczonych] as
+	SELECT COUNT (s.StatusId) AS IleZamknietych
+	FROM [dbo].[StatusZamowienia] AS s WITH (NOLOCK) LEFT JOIN [dbo].[HistoriaZamowienia] AS hs ON s.StatusId = hs.Status
+	WHERE s.JakiStatus = 'zamknięte'
 
---WIDOK ZWRACAJĄCY LICZBĘ ZAMÓWIEŃ KTÓRYCH AKTUALNY STATUS TO 'ZAMKNIĘTE'
+	--ILE ZAMÓWIEŃ JEST ZAMKNIĘTYCH

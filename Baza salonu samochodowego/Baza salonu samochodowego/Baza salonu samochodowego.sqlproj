@@ -91,5 +91,6 @@
     <Build Include="rapOp\Views\v_HrNajwyszaPremiaZ.sql" />
     <Build Include="rapOp\Views\v_SIleZakonczonych.sql" />
     <Build Include="dbo\Stored Procedures\Dodaj_zamowienia.sql" />
+    <Build Include="rapOp\Views\v_SIleCzekaNaRealizacje.sql" />
   </ItemGroup>
 </Project>
