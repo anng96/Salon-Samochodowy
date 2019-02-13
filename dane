@@ -1,1 +1,88 @@
 
+INSERT INTO Pracownicy(Imie, Nazwisko, PESEL, Plec, Adres, Mail, Telefon, DataZatrudnienia)
+VALUES
+('Jacek'     ,  'Gdula'      , '91020974678'  ,  'Mężczyzna' , 'Sołtysowska 122, 32-123 Kraków'   ,  'jacg@wp.pl'            ,      '777548698'  , '2018-01-11')  ,
+('Emil'      ,  'Górka'      , '92044419138'  ,  'Mężczyzna' , 'Pijarów 32, 30-194 Kraków'        ,  'emillp@wp.pl'          ,      '709457231'  , '2018-08-12')  ,
+('Anna'      ,  'Słowik'     , '82038712467'  ,  'Kobieta'   , 'Partyzantów 301, 32-123 Kraków'   ,  'annh98@wp.pl'          ,      '607347109'  , '2018-12-21')  ,
+('Tomasz'    ,  'Spyrka'     , '87056238912'  ,  'Mężczyzna' , 'Floriańska 108, 30-971 Kraków'    ,  'tomsyl@gmail.com'      ,      '884321652'  , '2018-05-03')  ,
+('Justyna'   ,  'Ulman'      , '92030912478'  ,  'Kobieta'   , 'Wieczysta 46, 32-980 Kraków'      ,  'justynka87@interia.pl' ,      '550326879'  , '2018-07-06')  ,
+('Adam'      ,  'Tomasik'    , '78093487393'  ,  'Mężczyzna' , 'Konopnickiej 234, 30-791 Kraków'  ,  'adamos87@o2.pl'        ,      '883458129'  , '2018-09-13')  ,
+('Jakub'     ,  'Tondera'    , '87067532910'  ,  'Mężczyzna' , 'Azaliowa 342, 32-123 Kraków'      ,  'jakob72@wp.pl'         ,      '679238197'  , '2018-01-14')  ,
+('Sylwester' ,  'Selecki'    , '82098329713'  ,  'Mężczyzna' , 'Bajeczna, 34-280 Kraków'          ,  'selsyl76@wp.pl'        ,      '812849032'  , '2018-08-06')  ,
+('Andrzej'   ,  'Opala'      , '76129035433'  ,  'Mężczyzna' , 'Andrychowska, 31-890 Kraków'      ,  'andrew781@gmail.com'   ,      '553515393'  , '2018-02-09')  ,
+('Katarzyna' ,  'Burkat'     , '98110930193'  ,  'Kobieta'   , 'Bieńczycka, 30-900 Kraków'        ,  'kasiula82@o2.pl'       ,      '516393243'  , '2018-02-04')  ,
+('Piotr'     ,  'Młynarczyk' , '82093019382'  ,  'Mężczyzna' , 'Bytomska, 36-360 Kraków'          ,  'piter87@wp.pl'         ,      '871392243'  , '2018-03-10')  ,
+('Paweł'     ,  'Kot'        , '85063036712'  ,  'Mężczyzna' , 'Brzozowa, 37-872 Kraków'          ,  'pablo123@onet.eu'      ,      '807812980'  , '2018-04-12')  ,
+('Justyna'   ,  'Kozaczyk'   , '96092051342'  ,  'Kobieta'   , 'Miarowa, 34-861 Kraków'           ,  'dzasta23@wp.pl'        ,      '671292743'  , '2018-05-18')  
+GO
+
+INSERT INTO Marki(Nazwa)
+VALUES
+('BMW'),
+('Maserati'),
+('Ford'),
+('Seat'),
+('Opel'),
+('Volvo'),
+('Peugeot'),
+('Fiat'),
+('Renault'),
+('Dacia'),
+('Audi')
+GO
+
+INSERT INTO Stanowiska(NazwaStanowiska)
+VALUES
+('Mechanik'),
+('Księgowa'),
+('Doradca'),
+('Sprzedawca'),
+('Kierownik'),
+('Lakiernik'),
+('Blacharz'),
+('Elektryk')
+GO
+
+INSERT INTO Wynagrodzenia(Kwota)
+VALUES
+('1000,00'),
+('2000,00'),
+('8800,00'),
+('3500,00'),
+('4100,00'),
+('3000,00'),
+('9000,00'),
+('4500,00'),
+('2200,00'),
+('6500,00'),
+('4300,00'),
+('2350,00'),
+('6700,00')
+GO
+
+INSERT INTO Uslugi(NazwaUslugi)
+VALUES
+('Naprawa klimatyzacji'),
+('Wymiana oleju'),
+('Wymiana płynu do spryskiwaczy'),
+('Naprawa lamp'),
+('Przegląd stanu techniczego samochodu'),
+('Wymiana opon')
+GO
+
+INSERT INTO Klient(Imie,	Nazwisko,	Email,	Telefon,	NrDowodu,	NIP)
+('Ania'    ,	'Gogól'      ,	'ania@googl.pl'     ,  '789789789'  , 'ASD456456'	, '4569876897'),    
+('Jan'     ,	'Kowalski'   ,	'jan@kk.pl'	        ,  '123123123'	, 'GFD545646' , '5645646548'), 
+('Sylwia'  ,	'Sosna'	     ,  'sylwias@gmail.com'	,  '883456789'	, 'SDA552345'	, '3454536761'),
+('Tomasz'  ,	'Domalik'	   ,  'tdomal@wp.pl'	    ,  '567845345'	, 'QWE334567'	, '5622370919'),
+('Anna'    ,	'Wincenciak' ,	'anwin@onet.eu'	    ,  '725345678'	, 'AXD435670'	, '7544315453'),
+('Marzena' ,	'Flazik'	   ,  'MarFlaz@wp.pl'	    ,  '607890678'	, 'KJH887654'	, '7853431356'),
+('Tadeusz' ,	'Sikora'	   ,  'SikT@gmail.com'	  ,  '767564789'	, 'POA998765'	, '3234624352'),
+('Amelia'  ,	'Nowak'	     ,  'AmNowak@wp.pl'	    ,  '690679876'	, 'MNU556450'	, '4323424552'),
+('Monika'  ,	'Olesek'     ,  'OlesM@interia.pl'	,  '550551234'	, 'ERT776543'	, '3334255424'),
+('Kamil'   ,	'Sowa'	     ,  'Kamil02@wp.pl'	    ,  '768456345'	, 'QWE634123'	, '3524242363'),
+('Andrzej' ,	'Figiel'	   ,  'FigAnd@onet.pl'	  ,  '777334678'	, 'OIU776788'	, '2423553256'),
+('Adam'    ,	'Selecki'	   ,  'AaSel@wp.pl'	      ,  '666785543'	, 'AZH776587'	, '6435245353'),
+('Eryk'    ,	'Kowalski'	 ,  'Erkowa@wp.pl'	    ,  '770980765'	, 'AZB553478'	, '5324325365'),
+('Piotr'   ,	'Starzec'	   ,  'StarPio@gmail.com'	,  '884567432'	, 'PON773466'	, '5643553532'),
+('Jacek'   ,	'Kowalczyk'	 ,  'Jackow@gmail.com'	,  '609846786'	, 'WED659087'	, '6782093009')
