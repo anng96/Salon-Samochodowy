@@ -92,5 +92,8 @@
     <Build Include="rapOp\Views\v_SIleZakonczonych.sql" />
     <Build Include="dbo\Stored Procedures\Dodaj_zamowienia.sql" />
     <Build Include="rapOp\Views\v_SIleCzekaNaRealizacje.sql" />
+    <Build Include="rapOp\Views\v_SWykonaneUslugi.sql" />
+    <Build Include="rapOp\Views\v_SUslugiDoZrobienia.sql" />
+    <Build Include="rapOp\Views\v_HrStanowiskoPracownika.sql" />
   </ItemGroup>
 </Project>
